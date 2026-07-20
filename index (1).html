@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Snake Game Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="menu">
+
+    <h1>🐍 SNAKE GAME PRO</h1>
+
+    <p class="sub">
+        Ăn thật nhiều táo để đạt điểm cao nhất.
+    </p>
+
+    <button id="startBtn">
+        ▶ BẮT ĐẦU
+    </button>
+
+    <div class="guide">
+
+        <h2>Cách chơi</h2>
+
+        <p>⬆️⬇️⬅️➡️ hoặc W A S D để điều khiển.</p>
+
+        <p>🍎 Ăn táo để tăng điểm.</p>
+
+        <p>💀 Không cắn vào thân.</p>
+
+        <p>⏸ Space để tạm dừng.</p>
+
+    </div>
+
+</div>
+
+
+<div id="hud">
+
+    <div>
+        ⭐ Điểm :
+        <span id="score">0</span>
+    </div>
+
+    <div>
+        🏆 Kỷ lục :
+        <span id="best">0</span>
+    </div>
+
+</div>
+
+
+
+<canvas
+id="game"
+width="600"
+height="600">
+</canvas>
+
+
+<div id="gameOver">
+
+    <h1>GAME OVER</h1>
+
+    <h2 id="finalScore">
+
+    </h2>
+
+    <button id="restartBtn">
+
+        CHƠI LẠI
+
+    </button>
+
+</div>
+
+
+<script src="snake.js"></script>
+<script src="food.js"></script>
+<script src="input.js"></script>
+<script src="ui.js"></script>
+<script src="game.js"></script>
+
+</body>
+
+</html>
+<div id="license">
+    © 2026 Nhóm 4 - Snake Game Pro v1.0
+</div>
